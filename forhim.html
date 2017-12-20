@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h3>디버깅 연습</h3><br/>
+    <!--입력부-->
+    <h1>for문 디버깅 연습</h1>
+    Number : <input type="text" id="input"/></p>
+    <button onclick="solve534()">입력</button>
+
+    <script>
+        // javaScript 작성
+        function solve534(){
+            var text = document.getElementById('input').value;
+            var star = "*";
+            for(var i = 5; i > 0; i--){
+              for(var a = 1; a < i; a++){
+                star = star + "*";
+              }
+              console.log(star);
+              star = "*";
+            }
+        }
+    </script>
+
+</body>
+</html>

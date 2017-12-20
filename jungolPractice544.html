@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>정보올림피아트 문제 풀이</title>
+</head>
+<body>
+	<h3>100 이하의 정수를 입력받아서 입력받은 정수부터 100까지의 합을 출력하는 프로그램을 작성하시오.</h3><br/>
+	<h5>입력 : 95 </h5><p/>
+	<h5>출력 : 585 </h5><p/>
+
+	<h2>풀이 ---------------------------------------------------------</h2>
+	<!=========== 문제 풀기 ===========>
+
+
+	<!-- 입력부 -->
+	<h1>for문 디버깅 연습</h1>
+	Number : <input type="text" id="input"/><p/>
+		<button onclick="solve544()">입력</button>
+
+		<p id = "result544"><p>
+
+
+	<script>
+		//javascript 작성
+		function solve544(){
+			var sum = 0;
+			for (var i = 1; i<=100; i++){
+				sum = sum + i;
+			}
+			document.getElementById("result544").innerHTML = sum;
+
+		}
+
+	</script>
+
+<hr/><!-- 문제 구분 하는 Eghr 태그 --> 
+ 
+</body>
+</html>

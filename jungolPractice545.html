@@ -1,0 +1,57 @@
+<!DOCTYP<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h3>545 : 반복제어문2 - 형성평가2</h3><br/>
+    <h5>10개의 정수를 입력받아 3의 배수의 개수와 5의 배수의 개수를 각각 출력하는 프로그램을 작성하시오.</h5>
+
+    <h6>입력 예 : </h6><p/>
+    <h6>10 5</h6>
+    <h6>출력 예 : </h6><p/>
+    <h6>5 6 7 8 9 10</h6>
+
+    <h2>풀이 -------------------------------------------------</h2>
+    <!-- 문제 풀기 -->
+    <!--입력부-->
+    Number1 : <input type="text" id="input1"/></p>
+    Number2 : <input type="text" id="input2"/></p>
+    Number3 : <input type="text" id="input3"/></p>
+    Number4 : <input type="text" id="input4"/></p>
+    Number5 : <input type="text" id="input5"/></p>
+    Number6 : <input type="text" id="input6"/></p>
+    Number7 : <input type="text" id="input7"/></p>
+    Number8 : <input type="text" id="input8"/></p>
+    Number9 : <input type="text" id="input9"/></p>
+    Number10 : <input type="text" id="input10"/></p>
+
+    <button onclick="solve534()">입력</button>
+    <!--출력부-->
+    <p id="result534"></p>
+    <script>
+        function solve534(){
+            var input1 = document.getElementById('input1').value;
+            var input2 = document.getElementById('input2').value;
+            var input3 = document.getElementById('input1').value;
+            var input4 = document.getElementById('input2').value;
+            var input5 = document.getElementById('input1').value;
+            var input6 = document.getElementById('input2').value;
+            var input7 = document.getElementById('input1').value;
+            var input8 = document.getElementById('input2').value;
+            var input9 = document.getElementById('input1').value;
+            var input10 = document.getElementById('input2').value;
+
+
+            // console.log(input1 + ", " + input2);
+            var output = "";
+            for(var i = input1; i <= input2; i++){
+               output = output + i + " ";
+            }
+
+            document.getElementById('result534').innerHTML = output;
+        }
+    </script>
+
+</body>
+</html>
